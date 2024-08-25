@@ -1,0 +1,78 @@
+.container{
+    width: 70%;
+     /* background-color: darkslategrey; */ 
+    background-color: rgb(42, 118, 205);
+    margin: auto;;
+    min-height: 100vh;
+    padding: 5vmax;
+
+}
+.container h1 {
+ font-size: 2.6rem;
+ font-family: sans-serif;
+ font-style: oblique;
+ color: white;
+}
+.container > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+ input ,
+textarea,
+button {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px;
+    font-size:  1.5rem;
+    border-radius: 5px;
+} 
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+button:hover{
+    background-color: rgb(39, 129, 232);
+    /* background-color: rgb(70, 106, 106); */
+    border: 1px solid rgb(132, 175, 189);
+    outline: none;
+}
+.task{
+    display: flex;
+    /* background-color: white; */
+    font-size:  x-large;
+    /* color: whitesmoke; */
+    margin: 10px;
+    /* flex-direction: column; */
+}
+.task > div { 
+     width: 100%;
+ }
+.task button{
+    border-radius: 40px;
+    height: 30px;
+    width: 30px;
+    justify-content: center; 
+     align-items: center; 
+      font-size: 1.6rem;  
+      display: flex; 
+}
+.task > button:hover{
+    background-color:  red;
+    cursor: pointer;
+    color: black;
+} 
+.handle{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
